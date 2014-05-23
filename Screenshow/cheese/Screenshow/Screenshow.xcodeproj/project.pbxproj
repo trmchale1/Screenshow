@@ -19,17 +19,13 @@
 		569A7216192AD9AB002F0C3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 569A71FE192AD9AB002F0C3A /* UIKit.framework */; };
 		569A721E192AD9AC002F0C3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 569A721C192AD9AC002F0C3A /* InfoPlist.strings */; };
 		569A7220192AD9AC002F0C3A /* ScreenshowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 569A721F192AD9AC002F0C3A /* ScreenshowTests.m */; };
+		569A722C192ADCC8002F0C3A /* GTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 569A722A192ADCC8002F0C3A /* GTViewController.m */; };
+		569A722D192ADCC8002F0C3A /* GTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 569A722B192ADCC8002F0C3A /* GTViewController.xib */; };
 		569A7231192B02E1002F0C3A /* GTImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 569A722F192B02E1002F0C3A /* GTImageView.m */; };
 		569A7232192B02E1002F0C3A /* GTImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 569A7230192B02E1002F0C3A /* GTImageView.xib */; };
 		569A7234192B23C5002F0C3A /* IMG_0052.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 569A7233192B23C5002F0C3A /* IMG_0052.JPG */; };
 		569A7238192B23E9002F0C3A /* IMG_0054.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 569A7237192B23E9002F0C3A /* IMG_0054.JPG */; };
 		569A723A192B36A0002F0C3A /* IMG_0081.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 569A7239192B36A0002F0C3A /* IMG_0081.JPG */; };
-		56A194FC192CE71E0077F539 /* workExample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56A194FB192CE71E0077F539 /* workExample.jpg */; };
-		56A19500192DC8170077F539 /* GTSettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A194FE192DC8170077F539 /* GTSettingsVC.m */; };
-		56A19501192DC8170077F539 /* GTSettingsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56A194FF192DC8170077F539 /* GTSettingsVC.xib */; };
-		56A1954F192F19F10077F539 /* GTSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A1954E192F19F10077F539 /* GTSingleton.m */; };
-		56A19553192F1EF30077F539 /* GTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A19551192F1EF30077F539 /* GTViewController.m */; };
-		56A19559192F20EA0077F539 /* GTViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 56A19558192F20EA0077F539 /* GTViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,21 +55,15 @@
 		569A721B192AD9AC002F0C3A /* ScreenshowTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScreenshowTests-Info.plist"; sourceTree = "<group>"; };
 		569A721D192AD9AC002F0C3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		569A721F192AD9AC002F0C3A /* ScreenshowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenshowTests.m; sourceTree = "<group>"; };
+		569A7229192ADCC8002F0C3A /* GTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTViewController.h; path = ../GTViewController.h; sourceTree = "<group>"; };
+		569A722A192ADCC8002F0C3A /* GTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTViewController.m; path = ../GTViewController.m; sourceTree = "<group>"; };
+		569A722B192ADCC8002F0C3A /* GTViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GTViewController.xib; path = ../GTViewController.xib; sourceTree = "<group>"; };
 		569A722E192B02E1002F0C3A /* GTImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTImageView.h; sourceTree = "<group>"; };
 		569A722F192B02E1002F0C3A /* GTImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTImageView.m; sourceTree = "<group>"; };
 		569A7230192B02E1002F0C3A /* GTImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTImageView.xib; sourceTree = "<group>"; };
 		569A7233192B23C5002F0C3A /* IMG_0052.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0052.JPG; sourceTree = "<group>"; };
 		569A7237192B23E9002F0C3A /* IMG_0054.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0054.JPG; sourceTree = "<group>"; };
 		569A7239192B36A0002F0C3A /* IMG_0081.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0081.JPG; sourceTree = "<group>"; };
-		56A194FB192CE71E0077F539 /* workExample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = workExample.jpg; sourceTree = "<group>"; };
-		56A194FD192DC8170077F539 /* GTSettingsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTSettingsVC.h; sourceTree = "<group>"; };
-		56A194FE192DC8170077F539 /* GTSettingsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTSettingsVC.m; sourceTree = "<group>"; };
-		56A194FF192DC8170077F539 /* GTSettingsVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GTSettingsVC.xib; sourceTree = "<group>"; };
-		56A1954D192F19F10077F539 /* GTSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTSingleton.h; sourceTree = "<group>"; };
-		56A1954E192F19F10077F539 /* GTSingleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTSingleton.m; sourceTree = "<group>"; };
-		56A19551192F1EF30077F539 /* GTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTViewController.m; sourceTree = "<group>"; };
-		56A19555192F20C80077F539 /* GTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GTViewController.h; path = cheese/Screenshow/GTViewController.h; sourceTree = "<group>"; };
-		56A19558192F20EA0077F539 /* GTViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GTViewController.xib; path = cheese/Screenshow/GTViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,22 +123,16 @@
 		569A7200192AD9AB002F0C3A /* Screenshow */ = {
 			isa = PBXGroup;
 			children = (
-				56A19555192F20C80077F539 /* GTViewController.h */,
-				56A19558192F20EA0077F539 /* GTViewController.xib */,
-				56A19551192F1EF30077F539 /* GTViewController.m */,
+				569A7229192ADCC8002F0C3A /* GTViewController.h */,
+				569A722A192ADCC8002F0C3A /* GTViewController.m */,
 				569A722E192B02E1002F0C3A /* GTImageView.h */,
 				569A722F192B02E1002F0C3A /* GTImageView.m */,
-				56A194FD192DC8170077F539 /* GTSettingsVC.h */,
-				56A194FE192DC8170077F539 /* GTSettingsVC.m */,
-				56A1954D192F19F10077F539 /* GTSingleton.h */,
-				56A1954E192F19F10077F539 /* GTSingleton.m */,
-				56A194FF192DC8170077F539 /* GTSettingsVC.xib */,
 				569A7230192B02E1002F0C3A /* GTImageView.xib */,
+				569A722B192ADCC8002F0C3A /* GTViewController.xib */,
 				569A7209192AD9AB002F0C3A /* GTAppDelegate.h */,
 				569A720A192AD9AB002F0C3A /* GTAppDelegate.m */,
 				569A720C192AD9AB002F0C3A /* Images.xcassets */,
 				569A7233192B23C5002F0C3A /* IMG_0052.JPG */,
-				56A194FB192CE71E0077F539 /* workExample.jpg */,
 				569A7239192B36A0002F0C3A /* IMG_0081.JPG */,
 				569A7237192B23E9002F0C3A /* IMG_0054.JPG */,
 				569A7201192AD9AB002F0C3A /* Supporting Files */,
@@ -262,14 +246,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				569A7238192B23E9002F0C3A /* IMG_0054.JPG in Resources */,
-				56A194FC192CE71E0077F539 /* workExample.jpg in Resources */,
-				56A19501192DC8170077F539 /* GTSettingsVC.xib in Resources */,
 				569A723A192B36A0002F0C3A /* IMG_0081.JPG in Resources */,
 				569A7205192AD9AB002F0C3A /* InfoPlist.strings in Resources */,
 				569A7232192B02E1002F0C3A /* GTImageView.xib in Resources */,
-				56A19559192F20EA0077F539 /* GTViewController.xib in Resources */,
 				569A720D192AD9AB002F0C3A /* Images.xcassets in Resources */,
 				569A7234192B23C5002F0C3A /* IMG_0052.JPG in Resources */,
+				569A722D192ADCC8002F0C3A /* GTViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,11 +270,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56A19500192DC8170077F539 /* GTSettingsVC.m in Sources */,
 				569A7207192AD9AB002F0C3A /* main.m in Sources */,
-				56A1954F192F19F10077F539 /* GTSingleton.m in Sources */,
-				56A19553192F1EF30077F539 /* GTViewController.m in Sources */,
 				569A7231192B02E1002F0C3A /* GTImageView.m in Sources */,
+				569A722C192ADCC8002F0C3A /* GTViewController.m in Sources */,
 				569A720B192AD9AB002F0C3A /* GTAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,7 +470,6 @@
 				569A7225192AD9AC002F0C3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 		569A7226192AD9AC002F0C3A /* Build configuration list for PBXNativeTarget "ScreenshowTests" */ = {
 			isa = XCConfigurationList;
@@ -499,7 +478,6 @@
 				569A7228192AD9AC002F0C3A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

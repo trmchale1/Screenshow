@@ -7,14 +7,12 @@
 //
 
 #import "GTImageView.h"
-#import "GTSettingsVC.h"
+
 @interface GTImageView ()
 
 @end
+
 @implementation GTImageView
-//@synthesize scrollView, imageArray;
-//@synthesize pageControl;
-@synthesize someData;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -24,7 +22,6 @@
     }
     return self;
 }
-
 
 - (void)viewDidLoad
 {
@@ -36,37 +33,13 @@
     animatedImageView.animationImages = [NSArray arrayWithObjects:
                                          [UIImage imageNamed:@"IMG_0052.JPG"],
                                          [UIImage imageNamed:@"IMG_0054.JPG"],
-                                         [UIImage imageNamed:@"workExample.jpg"],
+                                         [UIImage imageNamed:@"IMG_0081.JPG"],
                                          nil];
-    
-    int x = 1;
-    
-    NSLog(@"someData = %d", self.someData);
-    
-    
-    
-    
-    
-    animatedImageView.animationDuration = x * [animatedImageView.animationImages count];
-    
-    
-    
-    
-    
+    animatedImageView.animationDuration = 1.0 * [animatedImageView.animationImages count];
     [animatedImageView startAnimating];
     [self.view addSubview: animatedImageView];
     
 }
-
-
-//- (void)scrollViewDidScroll:(UIScrollView *)sender {
-//    // Update the page when more than 50% of the previous/next page is visible
-//    CGFloat pageWidth = self.scrollView.frame.size.width;
-//    int page = floor((self.scrollView.contentOffset.x - pageWidth / 2) / pageWidth) + 1;
-//    self.pageControl.currentPage = page;
-//}
-//
-
 
 - (void)didReceiveMemoryWarning
 {

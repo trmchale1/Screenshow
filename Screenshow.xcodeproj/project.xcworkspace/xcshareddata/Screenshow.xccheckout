@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C4187EAB-3D46-4958-9E9A-8B6C0AEE9C2F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Screenshow</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D0A43939-16B5-44E4-BBBF-A8B926524002</key>
+		<string>https://github.com/trmchale1/Screenshow.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Screenshow.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D0A43939-16B5-44E4-BBBF-A8B926524002</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/trmchale1/Screenshow.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D0A43939-16B5-44E4-BBBF-A8B926524002</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D0A43939-16B5-44E4-BBBF-A8B926524002</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Screenshow</string>
+		</dict>
+	</array>
+</dict>
+</plist>
