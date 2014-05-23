@@ -28,6 +28,14 @@
 
 - (void)viewDidLoad
 {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    
+    id y = [defaults objectForKey:@"Cheese"];
+    
+    int z = [y integerValue];
+    
+    NSLog(@"z = %d", z);
+    
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     UIImageView *animatedImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 55, 400, 550)];
@@ -41,13 +49,13 @@
     
     int x = 1;
     
-    NSLog(@"someData = %d", self.someData);
+    NSLog(@"cheese = %@", y);
     
     
     
     
     
-    animatedImageView.animationDuration = x * [animatedImageView.animationImages count];
+    animatedImageView.animationDuration = z * [animatedImageView.animationImages count];
     
     
     

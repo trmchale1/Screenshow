@@ -23,6 +23,5 @@
 @property int someData;
 - (IBAction) sliderValueChanged:(id)sender;
 - (IBAction) changeButtonPressed:(id)sender;
-+(id)sharedProperty;
 @end
 

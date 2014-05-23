@@ -21,7 +21,13 @@
 }
 
 - (IBAction) changeButtonPressed:(id)sender {
-   imageView = [[GTImageView alloc] initWithNibName:@"GTImageView" bundle:nil];
+   
+    
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+
+    
+    
+    imageView = [[GTImageView alloc] initWithNibName:@"GTImageView" bundle:nil];
     NSLog(@"text value = %@", myTextField);
     NSString *textValue = [myTextField text];
     int value = [textValue floatValue];
@@ -33,10 +39,18 @@
     myTextField.text = [NSString stringWithFormat:@"%.1d", value];
     if ([myTextField canResignFirstResponder]) [myTextField resignFirstResponder];
     someData = *(sliderValue);
+    
+    NSLog(@"slidervalue = %d", sliderValue);
+    NSLog(@"*sliderValue %d", *(sliderValue));
+    
     NSLog(@"someData = %d", someData);
-    imageView.someData = someData;
-    NSLog(@"someData = %d", imageView.someData);
+  
 
+    
+    [defaults setInteger:someData forKey:@"Cheese"];
+    
+    
+    
 }
 
 - (void) touchesBegan: (NSSet *) touches withEvent: (UIEvent *) event {
