@@ -8,16 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface GTImageView : UIViewController
-{
-    UIScrollView* scrollView;
-    UIPageControl* pageControl;
-    
-}
+@interface GTImageView : UIViewController <UIScrollViewDelegate>
+@property (strong, nonatomic) IBOutlet UIPageControl *pageControl;
+@property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
 
-@property (nonatomic, retain) IBOutlet UIScrollView* scrollView;
-@property (nonatomic, retain) IBOutlet UIPageControl* pageControl;
-@property (nonatomic,strong) NSArray *imageArray;
-@property (nonatomic) int someData;
 
 @end

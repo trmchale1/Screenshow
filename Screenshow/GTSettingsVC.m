@@ -27,7 +27,7 @@
 
     
     
-    imageView = [[GTImageView alloc] initWithNibName:@"GTImageView" bundle:nil];
+    imageView = [[GTImageView alloc]initWithNibName:@"GTImageView" bundle:nil];
     NSLog(@"text value = %@", myTextField);
     NSString *textValue = [myTextField text];
     int value = [textValue floatValue];
